@@ -11,6 +11,7 @@ import {
 import avatarImg from './assets/avatar.png'
 import bgDark from './assets/bg-dark.png'
 import bgLight from './assets/bg-light.png'
+import { Analytics } from '@vercel/analytics/react'
 
 // Custom inline SVG components for brand icons since Lucide v4 removed them
 const GithubIcon = (props) => (
@@ -229,6 +230,7 @@ function App() {
         </footer>
 
       </main>
+      <Analytics />
     </div>
   )
 }
