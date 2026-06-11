@@ -1,16 +1,43 @@
-# React + Vite
+# Connect with Muheez 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, highly polished personal Link Hub (Linktree alternative) designed and built using React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **High-Fidelity Glassmorphism**: Frost-glass UI cards that overlay harmoniously with custom static backgrounds, automatically adapting to light and dark modes.
+- **Staggered Entrance Animation**: A custom CSS stagger effect that loads profile elements and link items sequentially for a premium entrance feel.
+- **Glossy Glass Sheen Background**: The background uses a diagonal glossy sheet sheen layer (`mix-blend-overlay`) to create depth.
+- **Interactive Avatar Badge**: Quick mailto link badge overlayed on the avatar (`muftaumuheez6@gmail.com`).
+- **Interactive Click Shimmer**: A custom diagonal sweep animation (shimmer effect) triggers temporarily when clicking on any link button.
+- **Mobile-First Responsive Layout**: Built with Tailwind CSS and fully optimized for mobile, tablet, and desktop viewports.
+- **Lightweight Custom Icons**: Hand-crafted inline SVGs for brand icons (GitHub, X/Twitter, Discord, Telegram) keeping project dependencies extremely clean and fast.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React (Vite)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React + Custom Inline SVGs
+- **Build Tool**: Vite
 
-## Expanding the ESLint configuration
+## 🚀 Running Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Muheez001/connect-with-muheez.git
+   cd connect-with-muheez
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
