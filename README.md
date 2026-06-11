@@ -2,6 +2,8 @@
 
 A premium, highly polished personal Link Hub (Linktree alternative) designed and built using React, Vite, and Tailwind CSS.
 
+🔗 **Live Demo**: [connect-with-muheez.vercel.app](https://connect-with-muheez.vercel.app/)
+
 ## 🌟 Features
 
 - **High-Fidelity Glassmorphism**: Frost-glass UI cards that overlay harmoniously with custom static backgrounds, automatically adapting to light and dark modes.
